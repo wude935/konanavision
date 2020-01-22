@@ -5,9 +5,9 @@
 KonanaVision is a mobile application that demonstrates the capabilities of augmented and virtual reality and is powered by ViroReact and React Native. The app was built over the course of a week in Spring 2019 for my final MIS 301H project.
 
 ## Project Description 
-KonanaVision has two main experiences. The first is a augmented reality experience where users can summon a virtual model of my MIS 301H professor, Professor [Prabhudev Konana]( https://faculty.mccombs.utexas.edu/prabhudev.konana/). The virtual model can be dragged around in 3D space and is interactive; when tapped on, the model plays a sound bite of a common catchphrase used by Professor Konana. The second experience is virtual reality experience that is designed for Google Cardboard. With a Google Cardboard worn, users can view a 360 image of UT Austin at night. 
+KonanaVision has two main experiences. The first is a augmented reality experience where users can summon a virtual model of my MIS 301H professor, Professor [Prabhudev Konana]( https://faculty.mccombs.utexas.edu/prabhudev.konana/). The virtual model can be dragged around in  space and is interactive; when tapped on, the model plays a sound bite of a common catchphrase used by Professor Konana. The second experience is virtual reality experience that is designed for Google Cardboard. With a Google Cardboard worn, users can view a 360 image of UT Austin at night. 
 
 ## Tech
 -	[ViroReact](https://viromedia.com/viroreact)
 -	React Native 
--	Microsoft Paint 3D (to create the augmented reality figure)
+-	Microsoft Paint 3D (to create the virtual model of Konana)
