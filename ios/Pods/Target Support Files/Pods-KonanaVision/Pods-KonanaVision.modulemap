@@ -1,0 +1,6 @@
+framework module Pods_KonanaVision {
+  umbrella header "Pods-KonanaVision-umbrella.h"
+
+  export *
+  module * { export * }
+}

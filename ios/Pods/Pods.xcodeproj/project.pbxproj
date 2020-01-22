@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E39C9E5248DA457DA2B4B30CF55083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		12F96F9FA2D26DC23E6345AAE3D1F1BB /* Pods-KonanaVisionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7318594050D3E2258D6C38430AAA29 /* Pods-KonanaVisionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC55784C2082768A00C69E767D80D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		2E90BF75315E3FCC1B73FE44660BE04D /* Pods-KonanaVision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B5A62FD30A810F05EC4CF48EF5B05 /* Pods-KonanaVision-dummy.m */; };
+		2FF463CE8FDF6BD226F292E398C7E5B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		8C565604466E0919D5C596DFCA5B9F96 /* Pods-KonanaVision-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F634FA2CEA3B95AB832E56306328487F /* Pods-KonanaVision-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D829A31A97F6B3896687474C7ED18D1 /* Pods-KonanaVisionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7908EB7123AFB6664557279BD5C68AED /* Pods-KonanaVisionTests-dummy.m */; };
+		B27D93B2060EDD4A5BC927F62D405F2C /* Pods-KonanaVision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5784C981BBB7F17688FE93A10F5F44 /* Pods-KonanaVision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C696F155EB5AE3874AEFDD7726C9F081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		C8A0B330C0B8044B76202C7C8872B40C /* Pods-KonanaVision-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BE7E4C6FAEC60726684307B858D713 /* Pods-KonanaVision-tvOS-dummy.m */; };
+		D127135CF3D9BF83F3B5B69C21F76F2A /* Pods-KonanaVision-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A162B1AD8143CFB9684F69F1970CB362 /* Pods-KonanaVision-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1849D602E8DB1028DFB1C7391E7D16 /* Pods-KonanaVision-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE4C966222D793DCD89BC48C4AA0DC /* Pods-KonanaVision-tvOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF57F0AB35E6C48AC3B8AEA96C76ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB00DFB447734ACD232B21E8A85B4B3A;
+			remoteInfo = "Pods-KonanaVision-tvOS";
+		};
+		5137ED9EB2A717D80FF7900585A2F4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C8B5E3BF3163A8F2AB94B34BE7167E;
+			remoteInfo = "Pods-KonanaVision";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7EF79FEBB0DA07A91FFA28C9F919D1 /* Pods-KonanaVision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBB02510AC29272D7997671A4287EC8 /* Pods-KonanaVision-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonanaVision-tvOS.modulemap"; sourceTree = "<group>"; };
+		405F6041C17FFECAD6FA06C8562F6606 /* Pods-KonanaVision-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		509C2DAF30F0CAC77127043E19BD5A17 /* Pods-KonanaVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision.release.xcconfig"; sourceTree = "<group>"; };
+		51B7C5CC2D7E8DFA545658F6DA07FFA4 /* Pods-KonanaVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision.debug.xcconfig"; sourceTree = "<group>"; };
+		536734B93147D4B128C838160897A126 /* Pods-KonanaVision-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonanaVision-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		548BA54A06BDCD01D150CE8FCC6B8FEC /* Pods-KonanaVisionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVisionTests-Info.plist"; sourceTree = "<group>"; };
+		55BF74A7DC0BFD545C3F51922D9B8EBA /* Pods-KonanaVisionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonanaVisionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69EB9DE35F592CF96AB0B244FDBBC8B8 /* Pods-KonanaVision-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		75CF7B6F91409E18FE36BE0589E04457 /* Pods-KonanaVision-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7908EB7123AFB6664557279BD5C68AED /* Pods-KonanaVisionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonanaVisionTests-dummy.m"; sourceTree = "<group>"; };
+		7A605CE7FD677AD68ED3290DBB99C758 /* Pods-KonanaVision-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-tvOS-Info.plist"; sourceTree = "<group>"; };
+		7C478A65403A8095CBB09AE2E1069E23 /* Pods-KonanaVision-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonanaVision-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEE1B8BF000769E4F7F9DBA1CC2BBD9 /* Pods-KonanaVisionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonanaVisionTests.modulemap"; sourceTree = "<group>"; };
+		7FBC7AE3230AFA0ADFD0DED0432219DE /* Pods-KonanaVisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		949CC1D5EB7D8B955EC3426C87A2964C /* Pods-KonanaVision-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7985B4C348A6AFCAB0CD2675BECA61 /* Pods-KonanaVision-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonanaVision-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1D7ADF4D76CEB71EED064AA7F330C3 /* Pods_KonanaVision_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KonanaVision_tvOS.framework; path = "Pods-KonanaVision-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7318594050D3E2258D6C38430AAA29 /* Pods-KonanaVisionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonanaVisionTests-umbrella.h"; sourceTree = "<group>"; };
+		A162B1AD8143CFB9684F69F1970CB362 /* Pods-KonanaVision-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonanaVision-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		A5E89DAC1CE911425319A637B49AE2AF /* Pods_KonanaVision_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KonanaVision_tvOSTests.framework; path = "Pods-KonanaVision-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5784C981BBB7F17688FE93A10F5F44 /* Pods-KonanaVision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonanaVision-umbrella.h"; sourceTree = "<group>"; };
+		B01C918C4B5FA59BDFE8CFBA6E5756A3 /* Pods-KonanaVision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonanaVision-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B8682359B035625A1A097D6773071118 /* Pods-KonanaVisionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVisionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9D8B21D2CC7DB4D42CE43B83671B4C4 /* Pods-KonanaVision-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BE7E4C6FAEC60726684307B858D713 /* Pods-KonanaVision-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonanaVision-tvOS-dummy.m"; sourceTree = "<group>"; };
+		D99B5A62FD30A810F05EC4CF48EF5B05 /* Pods-KonanaVision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonanaVision-dummy.m"; sourceTree = "<group>"; };
+		DCC11C858E4D6432EA6EA7A0195C194A /* Pods_KonanaVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KonanaVision.framework; path = "Pods-KonanaVision.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD7629862901F059859B5668ABD7A56 /* Pods-KonanaVision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonanaVision.modulemap"; sourceTree = "<group>"; };
+		E0A306040C572673970407C8979993B2 /* Pods-KonanaVisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		EADE4C966222D793DCD89BC48C4AA0DC /* Pods-KonanaVision-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonanaVision-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		EF01EBE7FBD9C24CE1DB4996C2491399 /* Pods-KonanaVision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-Info.plist"; sourceTree = "<group>"; };
+		EF95FFB50322CE0283898A3D54FC2EC4 /* Pods_KonanaVisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KonanaVisionTests.framework; path = "Pods-KonanaVisionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12C13C42326F85B002E52397258671B /* Pods-KonanaVision-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonanaVision-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F40DD9E15DFE609B36F9FC1C8C121B05 /* Pods-KonanaVision-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonanaVision-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		F634FA2CEA3B95AB832E56306328487F /* Pods-KonanaVision-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonanaVision-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0689612A2B2775A0A9E05D37DFDA7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF463CE8FDF6BD226F292E398C7E5B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA73F4BCADC051863C0FA66D02C0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C696F155EB5AE3874AEFDD7726C9F081 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAEE3B0F6241552F50009BC2A540337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E39C9E5248DA457DA2B4B30CF55083 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6BABB774C1385BF3EE4A3ADD50CAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC55784C2082768A00C69E767D80D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2085CF7B5B9300EECF90CEDE3DCB344F /* Pods-KonanaVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE1B8BF000769E4F7F9DBA1CC2BBD9 /* Pods-KonanaVisionTests.modulemap */,
+				55BF74A7DC0BFD545C3F51922D9B8EBA /* Pods-KonanaVisionTests-acknowledgements.markdown */,
+				B8682359B035625A1A097D6773071118 /* Pods-KonanaVisionTests-acknowledgements.plist */,
+				7908EB7123AFB6664557279BD5C68AED /* Pods-KonanaVisionTests-dummy.m */,
+				548BA54A06BDCD01D150CE8FCC6B8FEC /* Pods-KonanaVisionTests-Info.plist */,
+				9F7318594050D3E2258D6C38430AAA29 /* Pods-KonanaVisionTests-umbrella.h */,
+				7FBC7AE3230AFA0ADFD0DED0432219DE /* Pods-KonanaVisionTests.debug.xcconfig */,
+				E0A306040C572673970407C8979993B2 /* Pods-KonanaVisionTests.release.xcconfig */,
+			);
+			name = "Pods-KonanaVisionTests";
+			path = "Target Support Files/Pods-KonanaVisionTests";
+			sourceTree = "<group>";
+		};
+		21B79C0E5EDC91BA063ECBDC50B63075 /* Pods-KonanaVision-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB02510AC29272D7997671A4287EC8 /* Pods-KonanaVision-tvOS.modulemap */,
+				536734B93147D4B128C838160897A126 /* Pods-KonanaVision-tvOS-acknowledgements.markdown */,
+				405F6041C17FFECAD6FA06C8562F6606 /* Pods-KonanaVision-tvOS-acknowledgements.plist */,
+				D3BE7E4C6FAEC60726684307B858D713 /* Pods-KonanaVision-tvOS-dummy.m */,
+				7A605CE7FD677AD68ED3290DBB99C758 /* Pods-KonanaVision-tvOS-Info.plist */,
+				A162B1AD8143CFB9684F69F1970CB362 /* Pods-KonanaVision-tvOS-umbrella.h */,
+				949CC1D5EB7D8B955EC3426C87A2964C /* Pods-KonanaVision-tvOS.debug.xcconfig */,
+				69EB9DE35F592CF96AB0B244FDBBC8B8 /* Pods-KonanaVision-tvOS.release.xcconfig */,
+			);
+			name = "Pods-KonanaVision-tvOS";
+			path = "Target Support Files/Pods-KonanaVision-tvOS";
+			sourceTree = "<group>";
+		};
+		2FE0328B2F8BA6120DE3537658266811 /* Pods-KonanaVision */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7629862901F059859B5668ABD7A56 /* Pods-KonanaVision.modulemap */,
+				B01C918C4B5FA59BDFE8CFBA6E5756A3 /* Pods-KonanaVision-acknowledgements.markdown */,
+				0B7EF79FEBB0DA07A91FFA28C9F919D1 /* Pods-KonanaVision-acknowledgements.plist */,
+				D99B5A62FD30A810F05EC4CF48EF5B05 /* Pods-KonanaVision-dummy.m */,
+				EF01EBE7FBD9C24CE1DB4996C2491399 /* Pods-KonanaVision-Info.plist */,
+				AE5784C981BBB7F17688FE93A10F5F44 /* Pods-KonanaVision-umbrella.h */,
+				51B7C5CC2D7E8DFA545658F6DA07FFA4 /* Pods-KonanaVision.debug.xcconfig */,
+				509C2DAF30F0CAC77127043E19BD5A17 /* Pods-KonanaVision.release.xcconfig */,
+			);
+			name = "Pods-KonanaVision";
+			path = "Target Support Files/Pods-KonanaVision";
+			sourceTree = "<group>";
+		};
+		373F6C374EFA2F3CF3DCE218734B81C5 /* Pods-KonanaVision-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B7985B4C348A6AFCAB0CD2675BECA61 /* Pods-KonanaVision-tvOSTests.modulemap */,
+				7C478A65403A8095CBB09AE2E1069E23 /* Pods-KonanaVision-tvOSTests-acknowledgements.markdown */,
+				75CF7B6F91409E18FE36BE0589E04457 /* Pods-KonanaVision-tvOSTests-acknowledgements.plist */,
+				EADE4C966222D793DCD89BC48C4AA0DC /* Pods-KonanaVision-tvOSTests-dummy.m */,
+				F40DD9E15DFE609B36F9FC1C8C121B05 /* Pods-KonanaVision-tvOSTests-Info.plist */,
+				F634FA2CEA3B95AB832E56306328487F /* Pods-KonanaVision-tvOSTests-umbrella.h */,
+				B9D8B21D2CC7DB4D42CE43B83671B4C4 /* Pods-KonanaVision-tvOSTests.debug.xcconfig */,
+				F12C13C42326F85B002E52397258671B /* Pods-KonanaVision-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-KonanaVision-tvOSTests";
+			path = "Target Support Files/Pods-KonanaVision-tvOSTests";
+			sourceTree = "<group>";
+		};
+		6527D6151A32C8B25236EBA0D3C37E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC11C858E4D6432EA6EA7A0195C194A /* Pods_KonanaVision.framework */,
+				9E1D7ADF4D76CEB71EED064AA7F330C3 /* Pods_KonanaVision_tvOS.framework */,
+				A5E89DAC1CE911425319A637B49AE2AF /* Pods_KonanaVision_tvOSTests.framework */,
+				EF95FFB50322CE0283898A3D54FC2EC4 /* Pods_KonanaVisionTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				6527D6151A32C8B25236EBA0D3C37E36 /* Products */,
+				D2649DF08031307AC43FFAC4164521A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2649DF08031307AC43FFAC4164521A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0328B2F8BA6120DE3537658266811 /* Pods-KonanaVision */,
+				21B79C0E5EDC91BA063ECBDC50B63075 /* Pods-KonanaVision-tvOS */,
+				373F6C374EFA2F3CF3DCE218734B81C5 /* Pods-KonanaVision-tvOSTests */,
+				2085CF7B5B9300EECF90CEDE3DCB344F /* Pods-KonanaVisionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E8184FB46D3D01BC76E3AD3372C9E5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27D93B2060EDD4A5BC927F62D405F2C /* Pods-KonanaVision-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D92D6B528E8F41431D45BACF9BC6AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C565604466E0919D5C596DFCA5B9F96 /* Pods-KonanaVision-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD598C547155431CC24FFA32048AF19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D127135CF3D9BF83F3B5B69C21F76F2A /* Pods-KonanaVision-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD01F248B4A62D3700D7B6F2C9A07A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F96F9FA2D26DC23E6345AAE3D1F1BB /* Pods-KonanaVisionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04C8B5E3BF3163A8F2AB94B34BE7167E /* Pods-KonanaVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E1BEE2FED5BF4DAC6A5C12EB1C7A68 /* Build configuration list for PBXNativeTarget "Pods-KonanaVision" */;
+			buildPhases = (
+				5E8184FB46D3D01BC76E3AD3372C9E5C /* Headers */,
+				11122173B879BC405BFFDA088821F541 /* Sources */,
+				3BAEE3B0F6241552F50009BC2A540337 /* Frameworks */,
+				E0E01051C6AC51FC9CAEC7276747370C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KonanaVision";
+			productName = "Pods-KonanaVision";
+			productReference = DCC11C858E4D6432EA6EA7A0195C194A /* Pods_KonanaVision.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F1D997D7249DFF224949F7E29265F7D /* Pods-KonanaVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6C9989FD0E696A807D474B9390D85F /* Build configuration list for PBXNativeTarget "Pods-KonanaVisionTests" */;
+			buildPhases = (
+				CFAD01F248B4A62D3700D7B6F2C9A07A /* Headers */,
+				C3723E9B3EA88A9A8AEDD43FB077D9FB /* Sources */,
+				0689612A2B2775A0A9E05D37DFDA7D56 /* Frameworks */,
+				7431918BCA9D89D7B4D367EFF6881C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEA95E77285B505402491B38513B6AC /* PBXTargetDependency */,
+			);
+			name = "Pods-KonanaVisionTests";
+			productName = "Pods-KonanaVisionTests";
+			productReference = EF95FFB50322CE0283898A3D54FC2EC4 /* Pods_KonanaVisionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F52ED674047EF06C285A43722C2AF7D /* Pods-KonanaVision-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DADB6FE101DB72598E84A935587ABF /* Build configuration list for PBXNativeTarget "Pods-KonanaVision-tvOSTests" */;
+			buildPhases = (
+				74D92D6B528E8F41431D45BACF9BC6AE /* Headers */,
+				DEC2EAD7CF6D4FA8C29F93FC1EEA7E16 /* Sources */,
+				FA6BABB774C1385BF3EE4A3ADD50CAFF /* Frameworks */,
+				071EA9CDC377536DBE5EECC2239FF976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF29FBBCBC4D6E5C1365D49E61429DDA /* PBXTargetDependency */,
+			);
+			name = "Pods-KonanaVision-tvOSTests";
+			productName = "Pods-KonanaVision-tvOSTests";
+			productReference = A5E89DAC1CE911425319A637B49AE2AF /* Pods_KonanaVision_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB00DFB447734ACD232B21E8A85B4B3A /* Pods-KonanaVision-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74484389A58474B5993E74317E08C13C /* Build configuration list for PBXNativeTarget "Pods-KonanaVision-tvOS" */;
+			buildPhases = (
+				CBD598C547155431CC24FFA32048AF19 /* Headers */,
+				306E83EDB85196BF3C1ADCD4D59997E6 /* Sources */,
+				09DA73F4BCADC051863C0FA66D02C0F4 /* Frameworks */,
+				643D7F7A75116731E1F015C3138F7C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KonanaVision-tvOS";
+			productName = "Pods-KonanaVision-tvOS";
+			productReference = 9E1D7ADF4D76CEB71EED064AA7F330C3 /* Pods_KonanaVision_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6527D6151A32C8B25236EBA0D3C37E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C8B5E3BF3163A8F2AB94B34BE7167E /* Pods-KonanaVision */,
+				AB00DFB447734ACD232B21E8A85B4B3A /* Pods-KonanaVision-tvOS */,
+				9F52ED674047EF06C285A43722C2AF7D /* Pods-KonanaVision-tvOSTests */,
+				5F1D997D7249DFF224949F7E29265F7D /* Pods-KonanaVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071EA9CDC377536DBE5EECC2239FF976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D7F7A75116731E1F015C3138F7C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7431918BCA9D89D7B4D367EFF6881C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E01051C6AC51FC9CAEC7276747370C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11122173B879BC405BFFDA088821F541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E90BF75315E3FCC1B73FE44660BE04D /* Pods-KonanaVision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E83EDB85196BF3C1ADCD4D59997E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A0B330C0B8044B76202C7C8872B40C /* Pods-KonanaVision-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3723E9B3EA88A9A8AEDD43FB077D9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D829A31A97F6B3896687474C7ED18D1 /* Pods-KonanaVisionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2EAD7CF6D4FA8C29F93FC1EEA7E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1849D602E8DB1028DFB1C7391E7D16 /* Pods-KonanaVision-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEA95E77285B505402491B38513B6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KonanaVision";
+			target = 04C8B5E3BF3163A8F2AB94B34BE7167E /* Pods-KonanaVision */;
+			targetProxy = 5137ED9EB2A717D80FF7900585A2F4D6 /* PBXContainerItemProxy */;
+		};
+		AF29FBBCBC4D6E5C1365D49E61429DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KonanaVision-tvOS";
+			target = AB00DFB447734ACD232B21E8A85B4B3A /* Pods-KonanaVision-tvOS */;
+			targetProxy = 3EF57F0AB35E6C48AC3B8AEA96C76ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16C18D43D2FE6EF93A1DD7453B1B8D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EB9DE35F592CF96AB0B244FDBBC8B8 /* Pods-KonanaVision-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision-tvOS/Pods-KonanaVision-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision-tvOS/Pods-KonanaVision-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4066E5A6FD164DEE9BBEAE4C43FB7813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D8B21D2CC7DB4D42CE43B83671B4C4 /* Pods-KonanaVision-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision-tvOSTests/Pods-KonanaVision-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision-tvOSTests/Pods-KonanaVision-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		668A207A8AC7954862EBF54B865F19DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949CC1D5EB7D8B955EC3426C87A2964C /* Pods-KonanaVision-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision-tvOS/Pods-KonanaVision-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision-tvOS/Pods-KonanaVision-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		A25FF0911A8C88A92C7111EECDB9891B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A306040C572673970407C8979993B2 /* Pods-KonanaVisionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVisionTests/Pods-KonanaVisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVisionTests/Pods-KonanaVisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B36F45500A74F10B5546070B06E94AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12C13C42326F85B002E52397258671B /* Pods-KonanaVision-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision-tvOSTests/Pods-KonanaVision-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision-tvOSTests/Pods-KonanaVision-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B996B72F18EE9446AEF8E228641FCC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509C2DAF30F0CAC77127043E19BD5A17 /* Pods-KonanaVision.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision/Pods-KonanaVision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision/Pods-KonanaVision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9FD1AD9BD48225E3EAF25B5D97C66BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B7C5CC2D7E8DFA545658F6DA07FFA4 /* Pods-KonanaVision.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVision/Pods-KonanaVision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVision/Pods-KonanaVision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E8245AEAC2AAB9A16C368421E9D25846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FBC7AE3230AFA0ADFD0DED0432219DE /* Pods-KonanaVisionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonanaVisionTests/Pods-KonanaVisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonanaVisionTests/Pods-KonanaVisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6C9989FD0E696A807D474B9390D85F /* Build configuration list for PBXNativeTarget "Pods-KonanaVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8245AEAC2AAB9A16C368421E9D25846 /* Debug */,
+				A25FF0911A8C88A92C7111EECDB9891B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DADB6FE101DB72598E84A935587ABF /* Build configuration list for PBXNativeTarget "Pods-KonanaVision-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4066E5A6FD164DEE9BBEAE4C43FB7813 /* Debug */,
+				B36F45500A74F10B5546070B06E94AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74484389A58474B5993E74317E08C13C /* Build configuration list for PBXNativeTarget "Pods-KonanaVision-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668A207A8AC7954862EBF54B865F19DB /* Debug */,
+				16C18D43D2FE6EF93A1DD7453B1B8D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E1BEE2FED5BF4DAC6A5C12EB1C7A68 /* Build configuration list for PBXNativeTarget "Pods-KonanaVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FD1AD9BD48225E3EAF25B5D97C66BE /* Debug */,
+				B996B72F18EE9446AEF8E228641FCC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
